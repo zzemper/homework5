@@ -227,7 +227,7 @@ header{
   .gallery{
     display: none;
   }
-  h2 {
+  #gallery {
     display: none;
   }
 }
