@@ -71,7 +71,7 @@ footer{
 
 #logo{
    /*Your code here.*/
-   animation-duration: 15s;
+   animation-duration: 3s;
    -webkitanimation: logo_wiggle;
    animation-name: logo_wiggle;
 
@@ -219,12 +219,15 @@ header{
   /*Your code here again.*/
   /*You will want four selectors*/  
   body {
-    background-image: clear;
+    background-image: none;
   }
   .pricing{
     align-items: flex-start;
   }
   .gallery{
+    display: none;
+  }
+  h2 {
     display: none;
   }
 }
@@ -233,6 +236,6 @@ header{
 /*Add media query to handle reduced-motion*/
 @media (prefers-reduced-motion) {
   #logo {
-    animation-name: dissolve;
+    animation-name: none;
   }
 }
